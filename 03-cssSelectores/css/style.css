@@ -1,8 +1,11 @@
 body {
-    background-color: darkslategrey;
+    background-color: ghostwhite;
 }
 
 #p1 {
-    color: ghostwhite;
+    color: darkgreen;
 }
 
+.colorLetra{
+    color: darkgreen;
+}
