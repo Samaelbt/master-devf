@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+header{
+    background-color: #9e5c10;
+    height: 10vh;
+}
+aside{
+    background-color: #116b34;
+    float: left;
+    height: 80vh;
+    width: 20%;
+}
+main{
+    background-color: #2998a7;
+    float: right;
+    height: 80vh;
+    width: 80%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #793781;
+    height: 10vh;
+    width: 100%;
+}
