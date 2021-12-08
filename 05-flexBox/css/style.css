@@ -62,7 +62,17 @@ aside a:hover{
 }
 section{
     background-color: #0c7a71;
+    display: flex;
+    flex-flow: row wrap;
     width: 90%;
+}
+article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+img{
+    flex: 1 1 30%;
+    height: 100px;
 }
 footer{
     align-items: center;
