@@ -64,10 +64,10 @@
 
 @media screen and (min-width: 480px) {
     .encabezado
-        height: 80px;
+    height: 80%;
 }
 
-.contenido, {
+.contenido,{
     background-color: (250, 168, 168);
 
 }
