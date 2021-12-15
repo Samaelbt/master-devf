@@ -1,33 +1,8 @@
-article{
-    flex: 1 1 30%;
-    text-align: center;
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
 }
-body{
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
-    margin: 0;
+
+.grid-item{
+    width: 230px;
 }
-header{
-        background-color: white;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 5;
-}
-header, h1{
-    color: red;
-}
-h1, nav{
-    display: inline-block;
-}
-main{
-    display: flex;
-    flex-direction: row;}
-    img{
-        flex: 1 1 30%;
-        height: 100px;}
-section{
-            background-color: white;
-            display: flex-wrap;
-            flex-flow:nowrap;
-            width: 90%;
-        }

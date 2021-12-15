@@ -1,0 +1,96 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+header{
+    align-items: center;
+    background-color: #f0f4c3;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 0 5px;
+}
+h1, nav{
+    display: inline-block;
+}
+h1, nav,a{
+    color: #004d40;
+}
+h1{
+    font-size: 1.2rem;
+    margin: 0;
+}
+nav{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 10%;
+}
+nav a{
+    font-size: 0.6rem;
+    text-decoration: none;
+    padding: 10px 5px;
+}
+nav a:hover{
+    background-color: #15a07d;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+aside, section{
+    height: 80vh;
+}
+aside{
+    align-items: center;
+    background-color: darkcyan;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+aside a{
+    color: black;
+    font-size: 1rem;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+}
+aside a:hover{
+    background-color: #2962ff;
+}
+section{
+    background-color: #0c7a71;
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+}
+article{
+    flex: 1 1 30%;
+    text-align: center;
+}
+img{
+    flex: 1 1 30%;
+    height: 100px;
+}
+footer{
+    align-items: center;
+    background-color: #26a69a;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+p, footer, a{
+    color: white;
+    font-size: 0.6rem;
+}
+p{
+    display: inline;
+    margin: 0;
+}
+.marginIzq{
+    margin-left: 5px;
+}
