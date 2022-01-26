@@ -8,3 +8,8 @@ console.log(4==='4')
 document.write('Hola Mundo, desde un archivo Externo15false')
 console.log(5+10)
 console.log(4==='4')
+
+//Muestra un popup con la salida de datos
+document.write('Hola Mundo, desde un archivo Externo15false')
+console.log(5+10)
+console.log(4==='4')
