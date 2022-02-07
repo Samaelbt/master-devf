@@ -31,6 +31,12 @@ arrayNombre.push(nombre);
 arrayNombre.push(apellido1);
 arrayNombre.push(apellido2);
 
+arrayFamiliares = nombresMiembros.split(',');
+
+arrayCombinado = arrayNombre.concat(arrayFamiliares);
+
+nombreCompleto = `Tu nombre es: ${arrayNombre[0]} ${arrayNombre[1]} ${arrayNombre[2]}`
+
 nombreCompleto  = ` Tu nombre es: ${arrayNombre[0]} ${arrayNombre[1]} ${arrayNombre[2]} `
 
 //salidas
